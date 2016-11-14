@@ -16,7 +16,7 @@ public class BowlingFrameTest {
 	
 	@Test
 	public void testGetScore() throws Exception {
-		assertEquals(0, frame.getScore());
+		assertEquals(10, frame.getScore());
 		frame.rollFirst(5);
 		assertEquals(5, frame.getScore());
 		frame.rollSecond(1);
