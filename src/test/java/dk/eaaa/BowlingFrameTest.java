@@ -1,7 +1,7 @@
 package dk.eaaa;
 
 import static org.junit.Assert.*;
-
+//
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,7 +16,7 @@ public class BowlingFrameTest {
 	
 	@Test
 	public void testGetScore() throws Exception {
-		assertEquals(10, frame.getScore());
+		assertEquals(0, frame.getScore());
 		frame.rollFirst(5);
 		assertEquals(5, frame.getScore());
 		frame.rollSecond(1);
